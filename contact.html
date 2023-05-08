@@ -32,74 +32,78 @@
 </head>
 
 <body>
-
-    <!-- NAV -->
-    <nav>
-        <a href="about.html" class="btn">About</a>
-        <a href="index.html">
-            <img class="personal-logo" alt="Personal logo" src="img/logo/Personal-logo1.png" width="120">
-        </a>
-        <a href="contact.html" class="btn">Contact</a>
-    </nav>
-
-
-    <main class="container-page">
-
-        <div class="goback">
-            <a href="index.html"><i class="fa-solid fa-arrow-left-long back-arrow"></i></a>
-        </div>
+    <main>
+        <!-- NAV -->
+        <nav>
+            <a href="about.html" class="btn">About</a>
+            <a href="index.html">
+                <img class="personal-logo" alt="Personal logo" src="img/logo/Personal-logo1.png" width="120">
+            </a>
+            <a href="contact.html" class="btn">Contact</a>
+        </nav>
 
 
-        <section class="about-container">
 
-            <h1 class="section-heading">Contact me</h1>
-            <p class="contact-text">If you have a project in mind, please don't hesitate to reach out to me using the
-                contact form below.<br>
-                I am happy to discuss your needs and goals and work together to create something that is both
-                visually stunning and effective.</p>
+        <section class="section-contact">
+
+            <div class="goback">
+                <a href="index.html"><i class="fa-solid fa-arrow-left-long back-arrow"></i> back</a>
+            </div>
 
 
-            <!-- FORM -->
+            <div class="container-contact">
+                <h1 class="section-heading">Contact me</h1>
+                <p class="contact-text">If you have a project in mind, please don't hesitate to reach out to me using
+                    the
+                    contact form below.<br>
+                    I am happy to discuss your needs and goals and work together to create something that is both
+                    visually stunning and effective.</p>
 
-            <form action="https://formsubmit.co/elis.kindlam@gmail.com" method="POST">
 
-                <input type="hidden" name="_subject" value="New submission!">
-                <input type="hidden" name="_next" value="https://ellistic.github.io/thankyou.html">
-                <input type="hidden" name="_captcha" value="false">
+                <!-- FORM -->
 
-                <div class="form-group">
-                    <label for="lastname">Name*</label>
-                    <input type="text" name="lastname" id="lastname" required class="form-element">
-                </div>
+                <form action="https://formsubmit.co/elis.kindlam@gmail.com" method="POST">
 
-                <div class="form-group">
-                    <label for="email">Email address*</label>
-                    <input type="text" name="email" id="email" required class="form-element">
-                </div>
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <input type="hidden" name="_next" value="https://ellistic.github.io/thankyou.html">
+                    <input type="hidden" name="_captcha" value="false">
 
-                <div class="form-group-full">
-                    <label for="message">Your message</label>
-                    <textarea name="message" id="message" class="form-element"></textarea>
-                </div>
+                    <div class="form-group">
+                        <label for="lastname">Name*</label>
+                        <input type="text" name="lastname" id="lastname" required class="form-element">
+                    </div>
 
-                <div class="submit-group">
-                    <input type="submit" value="SEND MESSAGE">
-                </div>
+                    <div class="form-group">
+                        <label for="email">Email address*</label>
+                        <input type="text" name="email" id="email" required class="form-element">
+                    </div>
 
-            </form>
+                    <div class="form-group">
+                        <label for="message">Your message</label>
+                        <textarea name="message" id="message" class="form-element"></textarea>
+                    </div>
+
+                    <div class="submit-group">
+                        <input type="submit" value="SEND MESSAGE">
+                    </div>
+
+                </form>
+
+
+            </div>
+
+            <!-- FOOTER -->
+
+            <footer class="footer">
+                <small class="copyright">&copy; Copyright 2023</small>
+                <a href="mailto:elis.kindlam@gmail.com" class="email">elis.kindlam@gmail.com</a>
+            </footer>
 
         </section>
 
 
-        <!-- FOOTER -->
-
-        <footer class="footer">
-            <small class="copyright">&copy; Copyright 2023</small>
-            <a href="mailto:elis.kindlam@gmail.com" class="email">elis.kindlam@gmail.com</a>
-        </footer>
+        <div class="fade"></div>
     </main>
-
-    <div class="fade"></div>
 
 </body>
 
